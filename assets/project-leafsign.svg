@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240" role="img" aria-label="一叶签（LeafSign）：Android 每日签到工具">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06302b"/>
+      <stop offset="0.55" stop-color="#0c5c50"/>
+      <stop offset="1" stop-color="#17936f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#a7f3d0" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a7f3d0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9fbe5"/>
+      <stop offset="1" stop-color="#5fe39a"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="600" height="240" rx="16"/></clipPath>
+    <path id="leafShape" d="M0 -60 C 42 -38, 52 12, 0 60 C -52 12, -42 -38, 0 -60 Z"/>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="600" height="240" fill="url(#bg)"/>
+    <rect width="600" height="240" fill="url(#glow)"/>
+    <g fill="#ffffff" fill-opacity="0.07">
+      <use href="#leafShape" transform="translate(290 40) rotate(40) scale(0.7)"/>
+      <use href="#leafShape" transform="translate(250 215) rotate(-30) scale(0.9)"/>
+      <use href="#leafShape" transform="translate(590 20) rotate(120) scale(0.8)"/>
+    </g>
+
+    <!-- 图标与标题 -->
+    <g transform="translate(58 84) rotate(32) scale(0.62)">
+      <use href="#leafShape" fill="url(#leaf)"/>
+      <path d="M-20 4 L-5 20 L22 -16" fill="none" stroke="#0b5d4b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-32)"/>
+    </g>
+    <g font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" fill="#ffffff">
+      <text x="100" y="100" font-size="44" font-weight="700">一叶签</text>
+      <text x="34" y="146" font-size="17" fill="#e7fff3">一个按钮，完成每日签到</text>
+      <text x="34" y="172" font-size="13" letter-spacing="1.5" fill="#a7f3d0">LeafSign · Android</text>
+    </g>
+
+    <!-- 签到清单 -->
+    <g font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">
+      <rect x="346" y="36" width="226" height="168" rx="14" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.22"/>
+      <g stroke="#ffffff" stroke-opacity="0.12">
+        <line x1="362" y1="78" x2="556" y2="78"/>
+        <line x1="362" y1="120" x2="556" y2="120"/>
+        <line x1="362" y1="162" x2="556" y2="162"/>
+      </g>
+      <circle cx="368" cy="57" r="5" fill="#f87171"/>
+      <circle cx="368" cy="99" r="5" fill="#60a5fa"/>
+      <circle cx="368" cy="141" r="5" fill="#fbbf24"/>
+      <circle cx="368" cy="183" r="5" fill="#f9a8d4"/>
+      <g font-size="14" fill="#ffffff">
+        <text x="384" y="62">网易云音乐</text>
+        <text x="384" y="104">百度贴吧</text>
+        <text x="384" y="146">森空岛</text>
+        <text x="384" y="188">哔哩哔哩</text>
+      </g>
+      <g>
+        <g transform="translate(546 57)">
+          <circle r="10" fill="#34d399"/>
+          <path d="M-5 0 L-1.5 4 L5 -4" fill="none" stroke="#06302b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle r="10" fill="none" stroke="#6ee7b7" stroke-width="2"><animate attributeName="r" values="10;17" dur="2.8s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="0s" repeatCount="indefinite"/></circle>
+        </g>
+        <g transform="translate(546 99)">
+          <circle r="10" fill="#34d399"/>
+          <path d="M-5 0 L-1.5 4 L5 -4" fill="none" stroke="#06302b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle r="10" fill="none" stroke="#6ee7b7" stroke-width="2"><animate attributeName="r" values="10;17" dur="2.8s" begin="0.35s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="0.35s" repeatCount="indefinite"/></circle>
+        </g>
+        <g transform="translate(546 141)">
+          <circle r="10" fill="#34d399"/>
+          <path d="M-5 0 L-1.5 4 L5 -4" fill="none" stroke="#06302b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle r="10" fill="none" stroke="#6ee7b7" stroke-width="2"><animate attributeName="r" values="10;17" dur="2.8s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="0.7s" repeatCount="indefinite"/></circle>
+        </g>
+        <g transform="translate(546 183)">
+          <circle r="10" fill="#34d399"/>
+          <path d="M-5 0 L-1.5 4 L5 -4" fill="none" stroke="#06302b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle r="10" fill="none" stroke="#6ee7b7" stroke-width="2"><animate attributeName="r" values="10;17" dur="2.8s" begin="1.05s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="2.8s" begin="1.05s" repeatCount="indefinite"/></circle>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
