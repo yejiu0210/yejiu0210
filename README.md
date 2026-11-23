@@ -41,24 +41,25 @@
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/project-leafsign.svg" alt="一叶签（LeafSign）：Android 每日签到工具" width="100%">
+<a href="https://github.com/yejiu0210/LeafSign-Android"><img src="assets/project-leafsign.svg" alt="一叶签（LeafSign）：开源的 Android 每日签到工具" width="100%"></a>
 
-<h3 align="center">一叶签 LeafSign</h3>
+<h3 align="center"><a href="https://github.com/yejiu0210/LeafSign-Android">一叶签 LeafSign</a></h3>
 
-原生 Android 每日签到工具。网易云音乐、百度贴吧、森空岛、哔哩哔哩，一个按钮完成每日任务；完全本地运行，没有自建服务器，凭证只发往官方域名。
+开源的 Android 每日签到工具。网易云音乐、百度贴吧、森空岛、哔哩哔哩、小黑盒，扫码登录，一个按钮完成每日任务；支持定时签到和失败自动重试，完全本地运行，凭证只发往官方域名。
 
 <p align="center">
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
 <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
 <img src="https://img.shields.io/badge/Android_8.0+-34A853?style=flat-square&logo=android&logoColor=white" alt="Android 8.0+">
-<img src="https://img.shields.io/badge/私有-自用-6B7280?style=flat-square" alt="私有 · 自用">
+<a href="https://github.com/yejiu0210/LeafSign-Android"><img src="https://img.shields.io/badge/开源-MIT-F59E0B?style=flat-square" alt="开源 · MIT"></a>
+<a href="https://github.com/yejiu0210/LeafSign-Android/stargazers"><img src="https://img.shields.io/github/stars/yejiu0210/LeafSign-Android?style=flat-square&color=5468EE" alt="Stars"></a>
 </p>
 
 </td>
 </tr>
 </table>
 
-<sub>两个项目目前都是私有仓库，暂不公开源码。</sub>
+<sub>一叶签已开源，欢迎来点 ⭐；TerraPilot 还在开发中，暂未公开。</sub>
 
 ## 🛠️ 技术栈
 
