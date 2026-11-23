@@ -52,7 +52,7 @@
 <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
 <img src="https://img.shields.io/badge/Android_8.0+-34A853?style=flat-square&logo=android&logoColor=white" alt="Android 8.0+">
 <a href="https://github.com/yejiu0210/LeafSign-Android"><img src="https://img.shields.io/badge/开源-MIT-F59E0B?style=flat-square" alt="开源 · MIT"></a>
-<a href="https://github.com/yejiu0210/LeafSign-Android/releases/latest"><img src="https://img.shields.io/github/v/release/yejiu0210/LeafSign-Android?style=flat-square&color=7C6CF0&label=最新版本" alt="最新版本"></a>
+<a href="https://github.com/yejiu0210/LeafSign-Android/releases/latest"><img src="https://img.shields.io/github/v/release/yejiu0210/LeafSign-Android?style=flat-square&color=7C6CF0&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC" alt="最新版本"></a>
 </p>
 
 </td>
